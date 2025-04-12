@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UncodedEx</title>
+  <style>
+    :root {
+      --primary: #f1c40f;
+      --dark: #1a1a2e;
+      --purple: #2e004f;
+      --text-light: #eee;
+      --accent: #9b59b6;
+    }
+
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--purple);
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--dark);
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      color: #ddd;
+      max-width: 700px;
+    }
+
+    .socials {
+      margin: 2rem 0;
+    }
+
+    .socials a {
+      margin: 0 1rem;
+      color: var(--primary);
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .contact {
+      margin: 2rem 0;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background-color: var(--dark);
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="loggo.jpg" alt="UncodedEx Logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Courses</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to UncodedEx</h1>
+    <p>Learn coding in a fun, visual, and creative way. Whether you're starting out or brushing up — we've got content on Java, Python, and JavaScript just for you.</p>
+
+    <div class="socials">
+      <a href="https://instagram.com/uncodedjava" target="_blank">@uncodedjava</a>
+      <a href="https://instagram.com/uncodedpython" target="_blank">@uncodedpython</a>
+      <a href="https://instagram.com/uncodedjs" target="_blank">@uncodedjs</a>
+      <a href="https://instagram.com/uncodedex-insta" target="_blank">@uncodedex-insta</a>
+    </div>
+
+    <div class="contact">
+      📩 <a href="mailto:aryangupta.ag1707@gmail.com" style="color: var(--primary);">aryangupta.ag1707@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 UncodedEx. All rights reserved. | Built with 💛 for learners.
+  </footer>
+</body>
+</html>
